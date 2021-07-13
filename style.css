@@ -113,3 +113,39 @@ grid-row-gap: 26px;
 .course{
 margin: 4%;
 }
+
+
+
+
+
+@media only screen and (max-width:688px){
+
+
+               .players, .blogs, .courses{
+
+                              grid-template-columns: repeat(1,1fr);
+               }
+
+               .container{
+                              width: 100%;
+               }
+
+                                    
+               }
+               .player, .blog{
+                              flex-direction: column;
+               }
+}
+/* tablet divaises */
+@media  only screen and (min-width:688px) and (max-width:992px){
+.container{
+               width: 100%;
+}
+.players,.blogs{
+                grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+               
+}
